@@ -1,4 +1,5 @@
 require("dotenv").config()   // must be first line
+console.log("ENV CHECK:", process.env.GEMINI_API_KEY);
 
 const app = require("./src/app")
 const connectToDB = require("./src/config/database")
